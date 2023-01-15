@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/ae9d642db0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    
+    <!-- ----------------------Header----------------------->
+
+    <div class="header">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="/index.html">MyLend</a>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/index.html"><i class="fa-solid fa-angles-left"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">People</a>
+                    <li class="nav-item profile1">
+                      <a class="nav-link active" aria-current="page" href="/profile/index.html">USER</a>
+                    </li>
+                    <li class="nav-item profile2">
+                      <a class="nav-link" href="/profile/index.html"><i class="fa-solid fa-circle-user"></i></a>
+                    </li>
+                  </li>
+    
+                </ul>
+                <form class="d-flex searcher" role="search">
+                  <input class="form-control me-2 search-box" type="search" placeholder="Search peoples" aria-label="Search">
+                  <button class="btn btn-outline-primary" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        </div>
+        </div>
+    
+    
+                  <!-- ----------------------SideBar------------------ -->
+                  
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-3 side-bar colounm">
+              <div class="container-fluid">
+    
+                <!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Enable both scrolling & backdrop</button> -->
+          
+          
+            <div class="offcanvas-body">
+              <ul class="sidar-ul">
+                <li >
+                  <a href="/index.html" class="sider-a"><i class="fa-solid fa-house sider-icon"></i> Home</a>
+                </li>
+                <li>
+                  <a href="#" class="sider-a"><i class="fa-solid fa-money-bill sider-icon"></i> Loan account</a>
+                  <ul>
+                    <li>
+                      <a href="/debt-account/index.html" class="sider-a"><i class="fa-solid fa-landmark sider-icon"></i> Dept account</a>
+                    </li>
+                    <li>
+                      <a href="/saving-account/index.html" class="sider-a"><i class="fa-solid fa-piggy-bank sider-icon"></i> Savings account</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#" class="sider-a"><i class="fa-solid fa-credit-card sider-icon"></i> Transcation</a>
+                </li>
+                <li>
+                  <a href="#" class="sider-a"><i class="fa-solid fa-users sider-icon"></i> People</a>
+                </li>
+                <li>
+                  <a href="/interest-calc/index.html" class="sider-a"><i class="fa-solid fa-calculator sider-icon"></i> Interest Calculator</a>
+                </li>
+              </ul>
+    
+            </div>
+          </div>
+                  </div>
+    
+    
+    
+                 <div class="col-lg-9 colounm">
+                    <div class="container text-center list1">
+                        <div class="row">
+                          <div class="col col-list">
+                            <div class="grid-float ">
+                              <app-top-chart >
+                                <div class="px-4 main bg-white grid-lower-float1" style="border-left: 8px solid #007bff; border-radius: 5px;">
+                                  <div class="data">
+                                    <div class="title">
+                                      <a class="lower-float-icon" href="#">Principal amount</i></a>
+    
+                                    </div>
+                                  <div >
+                                <div class="arrow-to">
+                                  <a href="#">
+                                    <i class="fa-solid fa-indian-rupee-sign icons"></i>
+                                  </a>
+                                </div>
+                                <div class="lower-float-text" >
+                                  <a class="lower-text" href="">₹128,018</a>
+                                
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </app-top-chart>
+                    </div>
+                          </div>
+                          <div class="col col-list">
+                            <div class="grid-float ">
+                              <app-top-chart >
+                                <div class="px-4 main bg-white grid-lower-float1 " style="border-left: 8px solid rgb(136, 80, 77);; border-radius: 5px;" >
+                                  <div class="data">
+                                    <div class="title">
+                                      <a class="lower-float-icon" href="#">Interest</a>
+    
+                                    </div>
+                                  <div >
+                                <div class="arrow-to">
+                                  <a href="#">
+                                    <i class="fa-solid fa-house-chimney icons"></i>
+                                  </a>
+                                </div>
+                                <div class="lower-float-text" >
+                                  <a class="lower-text" href="#">₹1,001</a>
+
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </app-top-chart>
+                    </div>
+                          </div>
+                          <div class="col col-list">
+                            <div class="grid-float ">
+                              <app-top-chart >
+                                <div class="px-4 main bg-white grid-lower-float1 " style="border-left: 8px solid rgb(142, 157, 141);; border-radius: 5px;">
+                                  <div class="data">
+                                    <div class="title">
+                                      <a class="lower-float-icon" href="#">Total Loans</a>
+    
+                                    </div>
+                                  <div >
+                                <div class="arrow-to">
+                                  <a href="#">
+                                    <i class="fa-solid fa-landmark icons"></i>
+                                  </a>
+                                </div>
+                                <div class="lower-float-text" >
+                                  <a class="lower-text" href="#">3</a>
+
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </app-top-chart>
+                    </div>
+                          </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="container text-center list">
+                        <div class="row">
+                          <div class="col col-list">
+                            <a href=""><i class="fa-solid fa-circle-user list-icon"></i></a>
+                          </div>
+                          <div class="col col-list">
+                            Column
+                          </div>
+                          <div class="col col-list">
+                            Column
+                          </div>
+                        </div>
+                    </div> -->
+
+                    <div class="search-bar">
+                    <nav class="navbar bg-body-tertiary">
+                      <div class="container-fluid">
+                        <form class="d-flex" role="search">
+                          <input class="form-control me-2 search-box" type="search" placeholder="Search loans" aria-label="Search">
+                          <button class="btn btn-outline-primary" type="submit">Search</button>
+                        </form>
+                      </div>
+                    </nav> 
+                  </div>
+
+
+                    <div class="container text-center list">
+                        <div class="row">
+                          <div class="col col-list-list">
+                            <div class="container text-center inside-col">
+                              <div class="row">
+                                <div class="col-lg-3 ">
+                                  <a href="" class="inside-icon-sectio"><i class="fa-solid fa-circle-user list-icon"></i></a>
+                                </div>
+                                <div class="col-lg-9 col-list-text" style="text-align: left;">
+                                  <p class="name" >Abhi</p>
+                                  <p class="phone">734941199</p>
+                                </div>
+                              </div>
+                          </div>
+
+                          </div>
+                          <div class="col col-list">
+                            <div class="container text-center inside-col">
+                              <div class="row">
+                                <div class="col-lg-4">
+                                  <p class="inside-header">Principal</p>
+                                  <p class="principal-amt">₹10,000</p>
+                                </div>
+                                <div class="col-lg-4">
+                                  <p class="inside-header">Interest</p>
+                                  <p class="interest-amt">₹1000</p>
+                                </div>
+                                <div class="col-lg-4">
+                                <p class="inside-header">Total</p>
+                                <p class="total-amt">₹11,000</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col col-list inside-col">
+                            <div class="container text-center inside-col">
+                              <div class="row">
+                                <div class="col-lg-8">
+                                  <p class="inside-header">Start date</p>
+                                  <p class="start-date">Jan 8, 2023</p>
+
+                                </div>
+                                <div class="col-lg-4">
+                                  <i class="fa-solid fa-arrow-right-to-bracket date-arrow"></i>                                </div>
+
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <a href="add-loans.html"><button  type="button" class="btn btn-primary btn-lg add-button"><i class="fa-solid fa-circle-plus"></i> Add Loan</button></a>
+   
+
+                    </div>
+
+
+                </div>
+    
+    
+    
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    
+    
+    
+    
+    
+    
+    
+</body>
+</html>

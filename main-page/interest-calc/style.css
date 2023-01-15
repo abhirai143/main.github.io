@@ -1,0 +1,166 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #EEEEEE;
+}
+
+.header{
+    background-color: white;
+    height: 67px;
+}
+.navbar-brand{
+    margin: 0 35px 0 0;
+    
+
+}
+.navbar-nav{
+
+}
+
+.searcher{
+    position: relative; 
+    left: 200px;    
+    width: 500px;
+}
+
+.search-box{
+    margin-right: 10px;
+}
+.profile1{
+    position: absolute;
+    /* left: 1100px; */
+    right: 50px;
+
+}
+
+.profile2{
+    position: absolute;
+    /* left: 1150px; */
+    right: 20px;
+}
+.fa-solid{
+    font-size: 25px;
+}
+.text-center{
+    width:100%;
+}
+
+
+.text-center{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.colounm{
+    height: 740px;
+}
+.side-bar{
+    background-color: #007bff;
+}
+
+.offcanvas-body{
+    text-align: left;
+}
+
+.sidar-ul{
+    padding-left: 0px;
+}
+
+li{
+    list-style-type: none;
+    margin-bottom: 5px;
+    margin-top: 10px;
+
+    
+}
+.sider-a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+.sider-icon{
+    font-size: 15px;
+}
+
+.sider-a:hover{
+    text-decoration: none;
+    color: white;
+
+}
+
+
+/* -------------calc----------------------- */
+
+.calc{
+    background-color: white;
+    margin: 10px;
+    border-radius: 5px;
+}
+.col{
+    height: 730px;
+    text-align: center;
+}
+.result{
+    border-left: 1px solid
+}
+
+.enter-text{
+    color: #6fcf97;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.selecter{
+    width: 283px;
+}
+.selecter1{
+    width: 283px;
+}
+
+.but{
+    margin-top: 30px;
+    width: 100px;
+
+}
+
+.dark-btn{
+    margin-left: 10px;
+}
+
+.periods-check{
+    text-align: left;
+    margin-top: 10px;
+}
+
+
+/* ------------------------results---------- */
+.br-result{
+    margin-top: 50px;
+    border: 1px solid #EB455F;
+    border-radius: 10px;
+}
+.result-out{
+    /* border: 2px solid #EB455F; */
+}
+
+.result-out-row{
+    text-align: left;
+}
+.amt{
+    text-align: right;
+}
+
+.result-text{
+    color: #EB455F;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.result-out-col{
+    margin-top: 20px;
+    height: 60px;
+
+}
+
+
+
+

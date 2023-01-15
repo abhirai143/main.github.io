@@ -1,0 +1,140 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #EEEEEE;
+}
+
+.header{
+    background-color: white;
+    height: 67px;
+}
+.navbar-brand{
+    margin: 0 35px 0 0;
+    
+
+}
+.navbar-nav{
+
+}
+
+.searcher{
+    position: relative; 
+    left: 200px;    
+    width: 500px;
+}
+
+.search-box{
+    margin-right: 10px;
+}
+.profile1{
+    position: absolute;
+    /* left: 1100px; */
+    right: 50px;
+
+}
+
+.profile2{
+    position: absolute;
+    /* left: 1150px; */
+    right: 20px;
+}
+.fa-solid{
+    font-size: 25px;
+}
+.text-center{
+    width:100%;
+}
+
+
+.text-center{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.colounm{
+    height: 740px;
+}
+.side-bar{
+    background-color: #007bff;
+}
+
+.offcanvas-body{
+    text-align: left;
+}
+
+.sidar-ul{
+    padding-left: 0px;
+}
+
+li{
+    list-style-type: none;
+    margin-bottom: 5px;
+    margin-top: 10px;
+
+    
+}
+.sider-a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+.sider-icon{
+    font-size: 15px;
+}
+
+.sider-a:hover{
+    text-decoration: none;
+    color: white;
+
+}
+
+
+/* -------------profile----------------------- */
+
+
+.cont{
+    margin: 20px 0 0 10px;
+    border-radius: 10px;
+    background: white;
+
+}
+
+.col1{
+    height: 500px;
+}
+
+.details{
+    margin-top: 20px;
+}
+
+.detail-row{
+    text-align: left;
+}
+.col-lg7{
+    border-left:1px solid black ;
+}
+
+img{
+    margin-top: 20px;
+    width: 40%;
+}
+
+
+.col{
+    height: 40px;
+}
+
+.detail-icon{
+    font-size: 15px;
+}
+.a-tag {
+    text-decoration: none;
+}
+
+.detail-btn{
+    margin: 20px 15px 0 15px;
+
+}
+
+.btn-save{
+    margin-top: 20px;
+}

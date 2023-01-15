@@ -1,0 +1,249 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #EEEEEE;
+}
+
+.header{
+    background-color: white;
+    height: 67px;
+}
+.navbar-brand{
+    margin: 0 35px 0 0;
+    
+
+}
+.navbar-nav{
+
+}
+
+.searcher{
+    position: relative; 
+    left: 200px;    
+    width: 500px;
+}
+
+.search-box{
+    margin-right: 10px;
+}
+.profile1{
+    position: absolute;
+    /* left: 1100px; */
+    right: 50px;
+
+}
+
+.profile2{
+    position: absolute;
+    /* left: 1150px; */
+    right: 20px;
+}
+.fa-solid{
+    font-size: 25px;
+}
+.text-center{
+    width:100%;
+}
+
+
+.text-center{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.colounm{
+    height: 740px;
+}
+.side-bar{
+    background-color: #007bff;
+}
+
+.offcanvas-body{
+    text-align: left;
+}
+
+.sidar-ul{
+    padding-left: 0px;
+}
+
+li{
+    list-style-type: none;
+    margin-bottom: 5px;
+    margin-top: 10px;
+
+    
+}
+.sider-a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+.sider-icon{
+    font-size: 15px;
+}
+
+.sider-a:hover{
+    text-decoration: none;
+    color: white;
+
+}
+
+
+
+
+
+/* -----------------------------------------floats-------- */
+
+
+
+
+.grid-float{
+
+    height: 150px;
+}
+
+
+.float-item{
+    margin-top: 20px;
+
+}
+
+.float-border1{
+    border-left: 6px solid;
+    border-color: #007bff;
+}
+.float-border2{
+    border-left: 6px solid;
+    border-color: red;
+}
+
+.data{
+    text-align: left;
+    margin-top: 10px;
+}
+.title{
+    padding-top: 10px;
+}
+.total-lent{
+    color: #007bff
+}
+
+.total-saving{
+    color: red;
+}
+
+
+
+.canvas{
+    background-color: white;
+    border-left: 6px solid;
+    border-color: #007bff;
+    width: 100%;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+
+}
+
+.donut {
+    width: 300px; height: 300px;
+    border-radius: 50%;
+    margin-left: 25%;
+   
+
+    background: conic-gradient(
+        #fff 0deg 3deg,
+        #f7847c 3deg 60deg,
+        #fff 60deg 63deg,
+        #5BC0F8 63deg 360deg
+    );
+  }
+
+  .donut:hover{
+    background:conic-gradient(
+        #fff 0deg 3deg,
+        #A75D5D 3deg 60deg,
+        #fff 60deg 63deg,
+        #007bff 63deg 360deg
+        );
+
+  }
+
+  .hole {
+    width: 180px; height: 180px;
+    border-radius: 50%;
+    background: #fff;
+  }
+  .donut {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .legend {
+    display: flex;
+    margin-top: 30px;
+    /* margin-bottom: 10px; */
+    font-size: 20px;
+    margin-left: 30%;
+
+  }
+
+  .legend div { 
+    padding: 0 10px;
+ }
+
+  .segment1 { 
+    background: #5BC0F8;
+    width: 40px;
+
+
+ }
+ .segement-text{
+    /* font-size: 10px; */
+    margin: 0 3px;
+ }
+
+  .segment2 { 
+    background: #f7847c;
+    width: 40px;
+
+ }
+
+
+ .container1{
+    margin-top: 20px;
+    /* height: 100px; */
+ }
+
+
+ /* --------------lower-float---------- */
+
+.grid-lower-float1{
+    border-left: 6px solid #007bff;
+}
+.grid-lower-float2{
+    border-left: 6px solid red;
+}
+.lower-float-icon{
+    color: black;
+}
+
+.arrow-to{
+position: relative;
+left: 300px;
+bottom: 5px;
+}
+
+.lower-float-text{
+    position: relative;
+    bottom: 10px;
+}
+.lower-float-icon1{
+    color: goldenrod;
+}
+
+.lower-float-icon2{
+    color: #007bff;
+}

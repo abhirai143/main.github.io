@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ae9d642db0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    
+    <!-- ----------------------Header----------------------->
+
+    <div class="header">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="/index.html">MyLend</a>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/index.html"><i class="fa-solid fa-angles-left"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Interest Calculator</a>
+                    <li class="nav-item profile1">
+                      <a class="nav-link active" aria-current="page" href="/profile/index.html">USER</a>
+                    </li>
+                    <li class="nav-item profile2">
+                      <a class="nav-link" href="/profile/index.html"><i class="fa-solid fa-circle-user"></i></a>
+                    </li>
+                  </li>
+    
+                </ul>
+                <form class="d-flex searcher" role="search">
+                  <input class="form-control me-2 search-box" type="search" placeholder="Search peoples" aria-label="Search">
+                  <button class="btn btn-outline-primary" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        </div>
+        </div>
+    
+    
+                  <!-- ----------------------SideBar------------------ -->
+                  
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-3 side-bar colounm">
+              <div class="container-fluid">
+    
+                <!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Enable both scrolling & backdrop</button> -->
+          
+          
+            <div class="offcanvas-body">
+              <ul class="sidar-ul">
+                <li >
+                  <a href="/index.html" class="sider-a"><i class="fa-solid fa-house sider-icon"></i> Home</a>
+                </li>
+                <li>
+                  <a href="#" class="sider-a"><i class="fa-solid fa-money-bill sider-icon"></i> Loan account</a>
+                  <ul>
+                    <li>
+                      <a href="/debt-account/index.html" class="sider-a"><i class="fa-solid fa-landmark sider-icon"></i> Dept account</a>
+                    </li>
+                    <li>
+                      <a href="/saving-account/index.html" class="sider-a"><i class="fa-solid fa-piggy-bank sider-icon"></i> Savings account</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#" class="sider-a"><i class="fa-solid fa-credit-card sider-icon"></i> Transcation</a>
+                </li>
+                <li>
+                  <a href="/people/index.html" class="sider-a"><i class="fa-solid fa-users sider-icon"></i> People</a>
+                </li>
+                <li>
+                  <a href="/interest-calc/index.html" class="sider-a"><i class="fa-solid fa-calculator sider-icon"></i> Interest Calculator</a>
+                </li>
+              </ul>
+    
+            </div>
+          </div>
+                  </div>
+    
+    
+    
+            <div class="col-lg-9 colounm">
+                <div class="container text-center calc">
+                    <div class="row">
+                      <div class="col col-lg-5 calculator">
+                        <div class="enter-detail">
+                            <p class="enter-text">Enter Details <i class="fa-solid fa-calculator"></i><hr class="hr-line"></p>
+                        </div>
+
+                        <div class="col-12 info">
+                          <label for="inputAddress" class="form-label-amt"></label>
+                          <input type="number" class="form-control form-control1" id="inputAmount" placeholder="💸 Principal amount">
+                        </div>
+                        <div class="col-12 info">
+                          <label for="inputPamount" class="form-label-ineterest"></label>
+                          <input type="number" class="form-control form-control2" id="inputInetrest" placeholder="🖩 Rate Interest">
+                        </div>
+                        <div class="col-md-4 info">
+                          <label for="inputState" class="form-label"></label>
+                          <select id="inputInterestType" class="form-select selecter">
+                            <option >  🕒 Interest every</option>
+                            <option value="peryear">per year</option>
+                            <option value="permonth">per month</option>
+
+                          </select>
+                        </div>
+
+                        <div class="col-12 info periods-check">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label check" for="gridCheck">
+                              Periods
+                            </label>
+                          </div>
+                        </div>
+
+                        <div class="col-md-4 info">
+                          <label for="inputState" class="form-label"></label>
+                          <select id="inputPeriodsType" class="form-select selecter1">
+                            <option >  ⌛ Terms</option>
+                            <option value="year">year</option>
+                            <option value="month">month</option>
+                          </select>
+                        </div>
+
+                        <div class="col-12 info">
+                          <label for="inputAddress" class="form-label-amt"></label>
+                          <input type="number" class="form-control form-control3" id="inputDuration" placeholder=" 📅 Duration">
+                        </div>
+
+                        <button type="button" onclick="refreshPage()" class="btn btn-outline-dark but">Clear All</button>
+                        <button type="button" onclick="Calculate()" class="btn btn-outline-primary dark-btn but">Result</button>
+
+
+                      </div>
+
+                      <div class="col col-lg-7 result" id="first" style="visibility: hidden;">
+
+
+                        <div class="enter-detail">
+                          <p class="result-text">Results <i class="fa-solid fa-square-poll-vertical"></i><hr class="hr-line"></p>
+                      </div>
+
+                        <div class="br-result" >
+                      <div class="container text-center result-out">
+                        <div class="row result-out-row">
+                          <div class="col-lg-6 result-out-col1">
+                            <p >Principal amount </p>
+                          </div>
+                          <div class="col-lg-6 result-out-col1 amt">
+                            <p class="princ-amt" style="font-weight: 600;">₹10000</p>
+                          </div>
+                        </div>
+                      </div>
+
+
+                      <div class="container text-center result-out">
+                        <div class="row result-out-row " style="border-bottom: 1px solid black;">
+                          <div class="col-lg-6 result-out-col1">
+                            <p>Interest </p>
+                          </div>
+                          <div class="col-lg-6 result-out-col1 amt">
+                            <p class="int-amt" style="font-size: 15px; color: #EB455F;">₹1000</p>
+                          </div>
+                        </div>
+                      </div>
+
+
+                      <div class="container text-center result-out">
+                        <div class="row result-out-row">
+                          <div class="col-lg-6 result-out-col">
+                            <p style="font-size: 18px;font-weight: 500;">To be paid</p>
+                          </div>
+                          <div class="col-lg-6 result-out-col amt">
+                            <p class="total-amt" style="font-weight: 500;">₹11000</p>
+                          </div>
+                        </div>
+                      </div>
+
+
+
+
+
+                      </div>
+                    </div>
+                    </div>
+
+
+                  </div>
+            </div>
+        </div>
+    </div>
+
+    
+    
+    
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    
+    
+    
+    
+    
+    
+    
+</body>
+</html>
